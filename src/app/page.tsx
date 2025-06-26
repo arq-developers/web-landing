@@ -1,7 +1,9 @@
 import Link from "next/link";
 import React from "react";
 
-export default function Home() {
+import FooBar from "@/components/foo-bar";
+
+export default function Page() {
 	return (
 		<div className="p-8 space-y-4">
 			<Link href="/about">About</Link>
@@ -27,6 +29,8 @@ export default function Home() {
 					White Soft Color (soft white)
 				</p>
 			</div>
+			<button className="btn btn-primary">Pinalitan Button</button>
+			<FooBar />
 		</div>
 	);
 }
