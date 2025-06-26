@@ -1,11 +1,14 @@
 import Link from "next/link";
 import React from "react";
 
-export default function Home() {
+import FooBar from "@/components/foo-bar";
+
+export default function Page() {
 	return (
-		<div>
-						<Link href="/about">About</Link>
-			<button className="btn btn-primary">Test Button</button>
+		<div className="bg-blue-500">
+			<Link href="/about">ABout Kamay</Link>
+			<button className="btn btn-primary">Pinalitan Button</button>
+			<FooBar />
 		</div>
 	);
 }
