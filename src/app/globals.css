@@ -1,2 +1,14 @@
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui" {
+    themes: light --default;
+}
+
+@theme {
+    --color-blue: #1a2e66; /* for titles or as dark bg*/
+    --color-black: #04101a; /* for body text */
+    --color-gray: #747474; /* for subtitles */
+    --color-yellow-dark: #f7b100; /* for lighter bg */
+    --color-yellow-light: #f7cb2d; /* for darker bg */
+    --color-white: #ffffff; /* pure white */
+    --color-white-soft: #f5f5f5; /* soft white */
+}
