@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Navbar from "@/components/shared/navbar";
 import Footer from "@/components/shared/footer";
+import WhyItMatters from "@/components/shared/matters";
 
 const openSans = Open_Sans({
 	variable: "--font-open-sans",
