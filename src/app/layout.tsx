@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Open_Sans, Montserrat } from "next/font/google";
 import "./globals.css";
 
 import Navbar from "@/components/shared/navbar";
 import Footer from "@/components/shared/footer";
 
-const geistSans = Geist({
-	variable: "--font-geist-sans",
+const openSans = Open_Sans({
+	variable: "--font-open-sans",
 	subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-	variable: "--font-geist-mono",
+const montserrat = Montserrat({
+	variable: "--font-montserrat",
 	subsets: ["latin"],
 });
 
@@ -28,10 +28,10 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+				className={`${openSans.variable} ${montserrat.variable} antialiased`}
 			>
 				<Navbar />
-				<main className="min-h-screen px-10 py-4">{children}</main>
+				<main>{children}</main>
 				<Footer />
 			</body>
 		</html>
