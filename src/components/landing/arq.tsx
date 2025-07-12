@@ -68,11 +68,11 @@ export default function ARQ() {
 					</span>
 				</div>
 			</div>
-			<div className="grid grid-cols-1 md:grid-cols-3 w-full gap-4 justify-items-center mt-6">
+			<div className="grid grid-cols-1 md:grid-cols-3 w-full lg:w-auto gap-4 justify-items-center mt-6">
 				{arq.map((arq, index) => (
 					<div
 						key={index}
-						className="bg-white rounded-sm shadow-lg flex flex-col justify-start items-center p-8 gap-2 w-full max-w-lg md:max-w-full cursor-default hover:shadow-blue/45 transition-all duration-300 group hover:bg-blue-dark"
+						className="bg-white rounded-sm shadow-lg flex flex-col justify-start items-center p-8 gap-2 w-full cursor-default hover:shadow-blue/45 transition-all duration-300 group hover:bg-blue-dark"
 					>
 						<div className="flex flex-col justify-center items-center">
 							<div className="font-montserrat text-yellow-dark font-bold text-2xl sm:text-3xl group-hover:text-white-soft transition-colors duration-300">
