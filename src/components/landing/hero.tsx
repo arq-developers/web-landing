@@ -33,7 +33,7 @@ export default function Hero() {
 	};
 
 	return (
-		<div className="flex flex-col items-center justify-center h-screen relative">
+		<div className="flex flex-col items-center justify-center h-screen relative text-black">
 			<div className="w-full h-full absolute top-0 left-0 z-0">
 				<Image
 					key={current}
