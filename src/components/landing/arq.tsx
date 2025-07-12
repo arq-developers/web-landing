@@ -75,7 +75,7 @@ export default function ARQ() {
 						className="bg-white rounded-sm shadow-lg flex flex-col justify-start items-center p-8 gap-2 w-full cursor-default hover:shadow-blue/45 transition-all duration-300 group hover:bg-blue-dark"
 					>
 						<div className="flex flex-col justify-center items-center">
-							<div className="font-montserrat text-yellow-dark font-bold text-2xl sm:text-3xl group-hover:text-white-soft transition-colors duration-300">
+							<div className="font-montserrat text-yellow-dark font-bold text-2xl sm:text-3xl">
 								{arq.letter}
 							</div>
 							<div className="font-montserrat text-blue font-bold text-base sm:text-lg group-hover:text-white-soft transition-colors duration-300 leading-none">
