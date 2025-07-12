@@ -26,14 +26,14 @@ export default function ARQ() {
 				<span className="text-blue font-bold text-xl sm:text-2xl md:text-3xl">
 					What is ARQ?
 				</span>
-				<div className="max-w-6xl text-sm sm:text-base">
-					ARQ is a 3-month, one-on-one discipleship journey designed to be{" "}
-					<span className="font-semibold">Spirit-led</span>,{" "}
-					<span className="font-semibold">relational</span>,{" "}
-					<span className="font-semibold">actionable</span>.
-				</div>
+				<span className="text-gray text-base sm:text-lg md:text-xl font-medium">
+					A Spirit-led, Relational, and Actionable 3-Month Journey
+				</span>
 			</div>
-
+			<div className="max-w-6xl text-sm sm:text-base">
+				Whether you’re a student, parent, entrepreneur, or leader—you can
+				facilitate or join the ARQ journey. No pulpit needed.
+			</div>
 			<div className="flex items-center justify-center gap-8 text-sm sm:text-base">
 				<div className="flex flex-col items-center justify-center gap-2">
 					<Image
@@ -87,10 +87,6 @@ export default function ARQ() {
 						</div>
 					</div>
 				))}
-			</div>
-			<div className="font-semibold text-center w-full max-w-3xl text-sm sm:text-base">
-				Whether you’re a student, parent, entrepreneur, or leader—you can
-				facilitate or join the ARQ journey. No pulpit needed.
 			</div>
 		</div>
 	);
