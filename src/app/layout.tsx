@@ -32,7 +32,7 @@ export default function RootLayout({
 				className={`${openSans.variable} ${montserrat.variable} antialiased`}
 			>
 				<Navbar />
-				<main>{children}</main>
+				<main className="bg-white-soft">{children}</main>
 				<Footer />
 			</body>
 		</html>
