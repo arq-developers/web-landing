@@ -1,7 +1,14 @@
 import Link from "next/link";
 import React from "react";
 
-import { Hero, Goals, WhatIsARQ, HowARQWorks } from "@/components/landing";
+import {
+	Hero,
+	Goals,
+	WhatIsARQ,
+	HowARQWorks,
+	Stories,
+	Testimonies,
+} from "@/components/landing";
 
 export default function Page() {
 	return (
@@ -10,6 +17,8 @@ export default function Page() {
 			<Goals />
 			<WhatIsARQ />
 			<HowARQWorks />
+			<Stories />
+			<Testimonies />
 		</div>
 	);
 }
