@@ -51,7 +51,11 @@ function Navbar() {
 		<nav className="flex items-center justify-between px-10 py-4">
 			<div className="flex items-center gap-4">
 				<Link href="/">
-					<img src="/images/logo.png" alt="ARQ Logo" className="h-10 w-auto" />
+					<img
+						src="/images/arq/arq-blue-logo-with-name.png"
+						alt="ARQ Logo"
+						className="h-12 w-auto"
+					/>
 				</Link>
 			</div>
 			<div className="flex items-center gap-4">
