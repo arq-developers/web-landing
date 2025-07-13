@@ -10,7 +10,7 @@ const GoalCard = ({
 	className?: string;
 }) => (
 	<div
-		className={`bg-white rounded-sm shadow-lg flex flex-col justify-center items-center p-8 gap-2 flex-1 max-w-lg cursor-default hover:shadow-blue/45 transition-all duration-300 group hover:bg-blue-dark ${className}`}
+		className={`bg-white rounded-sm shadow-lg flex flex-col justify-center items-center p-4 sm:p-8 gap-2 flex-1 max-w-lg cursor-default hover:shadow-blue/45 transition-all duration-300 group hover:bg-blue-dark ${className}`}
 	>
 		<div className="flex flex-col justify-center items-center">
 			<div>{goal.icon}</div>
@@ -72,7 +72,7 @@ export default function Goals() {
 	];
 
 	return (
-		<div className="w-full h-full px-8 py-16 lg:px-16 flex flex-col justify-center items-center text-center gap-8 transition-all duration-300 ">
+		<div className="w-full h-full px-8 py-32 lg:px-16 flex flex-col justify-center items-center text-center gap-8 transition-all duration-300 ">
 			<div className="font-montserrat flex flex-col items-center justify-center">
 				<span className="text-blue font-bold text-xl sm:text-2xl md:text-3xl">
 					Long-Term Impact Goals
