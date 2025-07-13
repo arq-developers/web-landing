@@ -43,7 +43,7 @@ export default function Testimonies() {
 					{testimonials.map((testimonial, index) => (
 						<div
 							key={index}
-							className="bg-white rounded-sm shadow-lg p-8 flex flex-col items-center text-center gap-4 relative w-full sm:w-sm md:w-md flex-shrink-0 group hover:shadow-blue/25 transition-all duration-300 cursor-default"
+							className="bg-white rounded-sm shadow-lg p-6 md:p-8 flex flex-col items-center text-center gap-2 md:gap-4 relative w-full sm:w-lg md:w-md flex-shrink-0 group hover:shadow-blue/25 transition-all duration-300 cursor-default"
 						>
 							<div className="absolute top-4 right-4 opacity-80 group-hover:opacity-100 transition-all duration-300">
 								<Quotes size={50} weight="fill" color="#17213e" />
@@ -64,7 +64,7 @@ export default function Testimonies() {
 									</p>
 								</div>
 							</div>
-							<p className="text-sm sm:text-base text-justify">
+							<p className="text-sm sm:text-base text-center md:text-justify">
 								{testimonial.message}
 							</p>
 						</div>

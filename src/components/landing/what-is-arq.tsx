@@ -38,7 +38,7 @@ export default function WhatIsARQ() {
 					discipleship. Whether you’re a student, parent, entrepreneur, or
 					leader—you can facilitate or join the ARQ journey. No pulpit needed.
 				</div>
-				<div className="grid grid-cols-1 md:grid-cols-3 w-full lg:w-auto gap-4 justify-items-center">
+				<div className="grid grid-cols-1 md:grid-cols-3 w-full sm:w-lg md:w-auto gap-4 justify-items-center">
 					{arq.map((arq, index) => (
 						<div
 							key={index}
