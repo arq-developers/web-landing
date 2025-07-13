@@ -43,12 +43,12 @@ function WhyItMatters() {
 					</div>
 
 					<div className="flex-1 flex items-center justify-center">
-						<div className="bg-white text-[#1E2A5A] p-8 sm:p-10 rounded-xl shadow-lg space-y-3 flex flex-col items-center text-center max-w-md w-full">
-							<div className="mb-4">
+						<div className="bg-white text-[#1E2A5A] p-4 sm:p-8 rounded-xl shadow-lg space-y-2 flex flex-col items-center text-center max-w-md w-full">
+							<div className="mb-1">
 								<img
-									src="/images/logo.png"
+									src="/images/ARQ.png"
 									alt="ARQ Logo"
-									className="h-10 w-auto"
+									className="h-30 w-40"
 								/>
 							</div>
 							<h3 className="text-1xl sm:text-1xl font-bold">
@@ -59,7 +59,7 @@ function WhyItMatters() {
 								multiplies when believers are empowered, heard, and equipped.
 							</p>
 							<Link
-								href="/about"
+								href="/WhyItMatters"
 								className="inline-block mt-2 text-yellow-500 font-semibold hover:underline transition duration-300 ease-in-out"
 							>
 								Learn more
