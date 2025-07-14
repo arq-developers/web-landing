@@ -37,12 +37,12 @@ export default function HowArqWorks() {
 	];
 
 	return (
-		<div className="gap-8 md:gap-12 w-full h-full px-8 py-32 lg:px-16 flex flex-col justify-center items-center text-center transition-all duration-300 text-black bg-">
-			<div className="font-montserrat flex flex-col items-center justify-center">
-				<span className="text-blue font-bold text-xl sm:text-2xl md:text-3xl">
+		<div className="gap-8 md:gap-12 w-full h-full pt-24 px-8 md:px-16 flex flex-col justify-center items-center text-center transition-all duration-300 text-black bg-">
+			<div className="font-montserrat flex flex-col items-center justify-center gap-1">
+				<span className="text-blue/85 font-bold text-xl sm:text-2xl md:text-3xl leading-tight">
 					How ARQ Works?
 				</span>
-				<span className="text-gray text-base sm:text-lg md:text-xl font-medium">
+				<span className="text-gray text-base sm:text-lg md:text-xl font-medium leading-tight">
 					Plug-and-Play Discipleship System That Multiplies
 				</span>
 			</div>
