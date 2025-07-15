@@ -37,7 +37,7 @@ export default function HowArqWorks() {
 	];
 
 	return (
-		<div className="gap-12 w-full h-full px-8 py-32 lg:px-16 flex flex-col justify-center items-center text-center transition-all duration-300 text-black bg-">
+		<div className="gap-8 md:gap-12 w-full h-full px-8 py-32 lg:px-16 flex flex-col justify-center items-center text-center transition-all duration-300 text-black bg-">
 			<div className="font-montserrat flex flex-col items-center justify-center">
 				<span className="text-blue font-bold text-xl sm:text-2xl md:text-3xl">
 					How ARQ Works?
@@ -48,10 +48,10 @@ export default function HowArqWorks() {
 			</div>
 
 			<div className="flex flex-col md:flex-row items-stretch justify-center h-auto gap-8 lg:gap-10 w-full">
-				<div className="relative h-56 md:h-auto bg-[url('/images/hero/474663832_1269361440788485_8472831950214551439_n.jpg')] bg-cover bg-center bg-no-repeat rounded-sm w-full md:max-w-xl">
+				<div className="relative h-56 md:h-auto bg-[url('/images/hero/474663832_1269361440788485_8472831950214551439_n.jpg')] bg-cover bg-center bg-no-repeat rounded-sm w-full md:max-w-xs">
 					<div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue/50 to-blue w-full h-full rounded-sm"></div>
 				</div>
-				<div className="flex flex-col gap-4 w-full max-w-4xl">
+				<div className="flex flex-col gap-4 w-full max-w-2xl">
 					{arqProcess.map((item, index) => (
 						<div
 							key={index}

@@ -22,7 +22,7 @@ export default function WhatIsARQ() {
 
 	return (
 		<div className="w-full">
-			<div className="bg-gradient-to-b from-blue via-blue/80 to-transparent w-svw h-72 rounded-sm"></div>
+			<div className="bg-gradient-to-b from-blue via-blue/80 to-transparent w-full h-72 rounded-sm"></div>
 			<div className="gap-8 w-full h-full px-8 pt-16 lg:px-16 flex flex-col justify-center items-center text-center transition-all duration-300 text-black">
 				<div className="font-montserrat flex flex-col items-center justify-center">
 					<span className="text-blue font-bold text-xl sm:text-2xl md:text-3xl">
@@ -38,7 +38,7 @@ export default function WhatIsARQ() {
 					discipleship. Whether you’re a student, parent, entrepreneur, or
 					leader—you can facilitate or join the ARQ journey. No pulpit needed.
 				</div>
-				<div className="grid grid-cols-1 md:grid-cols-3 w-full lg:w-auto gap-4 justify-items-center">
+				<div className="grid grid-cols-1 md:grid-cols-3 w-full sm:w-lg md:w-auto gap-4 justify-items-center">
 					{arq.map((arq, index) => (
 						<div
 							key={index}
