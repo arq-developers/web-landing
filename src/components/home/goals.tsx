@@ -72,7 +72,7 @@ export default function Goals() {
 	];
 
 	return (
-		<div className="w-full h-full pb-28 pt-24 px-8 md:px-16 flex flex-col justify-center items-center text-center gap-8 transition-all duration-300 ">
+		<div className="w-full h-full pb-36 pt-24 px-8 md:px-16 flex flex-col justify-center items-center text-center gap-8 transition-all duration-300 ">
 			<div className="font-montserrat flex flex-col items-center justify-center gap-1">
 				<span className="text-blue/85 font-bold text-xl sm:text-2xl md:text-3xl leading-tight">
 					Long-Term Impact Goals

@@ -3,59 +3,55 @@ import Image from "next/image";
 
 function AboutARQ() {
 	return (
-		<section className="bg-white font-montserrat text-[#1a2e66] py-16 px-4 sm:px-6 lg:px-8">
+		<section className="pt-24 pb-12 px-8 md:px-16">
 			<div className="max-w-6xl mx-auto space-y-12">
-				<div className="text-center">
-					<h2 className="text-3xl sm:text-4xl font-extrabold text-[#1a237e]">
+				<div className="font-montserrat flex flex-col items-center justify-center gap-1">
+					<span className="text-blue-dark font-bold text-2xl md:text-4xl leading-tight">
 						About ARQ
-					</h2>
-					<p className="mt-2 text-lg sm:text-xl text-gray-600 font-medium">
+					</span>
+					<span className="text-gray text-base sm:text-lg md:text-xl font-medium leading-tight">
 						Where Discipleship Meets Real Life
-					</p>
+					</span>
 				</div>
 
-				<div className="flex flex-col lg:flex-row items-center gap-12">
-					<div className="w-full lg:w-1/2">
-						<img
-							src="/images/hero/467357773_2396348514046355_3106270350575818250_n.jpg"
-							alt="loading..."
-							className="rounded-lg shadow-lg object-cover w-full h-[500px]"
-						/>
+				<div className="flex flex-col md:flex-row items-stretch gap-8">
+					<div className="w-full md:w-1/2 relative h-80 md:h-auto bg-[url('/images/hero/467357773_2396348514046355_3106270350575818250_n.jpg')] bg-cover bg-center bg-no-repeat rounded-sm">
+						<div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue/50 to-blue w-full h-full rounded-sm"></div>
 					</div>
 
-					<div className="w-full lg:w-1/2 space-y-6">
-						<p className="text-base text-gray-800 leading-relaxed">
+					<div className="w-full md:w-1/2 gap-4 flex flex-col items-start justify-center text-left sm:text-base text-sm">
+						<p>
 							ARQ began with a quiet but bold question:{" "}
-							<span className="font-semibold italic">
+							<span className="font-semibold">
 								“What if discipleship wasn’t confined to pulpits or programs?”
 							</span>
 						</p>
 
-						<p className="text-base text-gray-800 leading-relaxed">
+						<p>
 							It started with a man who didn’t want to lead a Bible study from a
 							stage—but around coffee with his wife. He imagined something more
 							honest. A safe space where people could talk about God without
 							performance, pressure, or pretense.
 						</p>
 
-						<p className="text-base text-gray-800 leading-relaxed">
+						<p>
 							No religious stage. No fancy titles. Just life-on-life
 							conversations that made faith feel real.
 						</p>
 
-						<p className="text-base text-gray-800 leading-relaxed">
+						<p>
 							But when he called it “Bible study,” people pulled back. It felt
 							too preachy, too predictable. So he tried something different.
 						</p>
 
-						<p className="text-lg font-semibold text-[#1E2A5A] leading-relaxed">
+						<p className="font-semibold">
 							“Let’s try this for 3 months—just one hour a week. A casual
 							conversation about life, using a simple module as our guide.”
 						</p>
 
 						<Link
 							href="/about"
-							className="inline-block bg-yellow-400 text-black font-semibold py-3 px-6 rounded-md shadow hover:bg-yellow-300 transition duration-300"
+							className="bg-yellow-dark py-2 px-7 rounded-sm text-white-soft font-medium text-sm md:text-base border-2 border-transparent hover:bg-transparent hover:border-2 hover:border-blue-dark hover:text-blue-dark transition-all duration-300 disabled mt-2 cursor-not-allowed"
 						>
 							Read more
 						</Link>
