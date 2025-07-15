@@ -11,6 +11,7 @@ import {
 } from "@/components/home";
 import About from "@/components/shared/aboutARQ";
 import WhyItMatters from "@/components/shared/matters";
+import Foo from "@/components/shared/foo";
 
 export default function Page() {
 	return (
@@ -23,9 +24,10 @@ export default function Page() {
 			<WhyItMatters />
 			<WhatIsARQ />
 			<HowARQWorks />
-			<Stories />
+      <Stories />
 			<Testimonies />
 			<SupportARQ />
+			<Foo />
 		</div>
 	);
 }
