@@ -8,7 +8,7 @@ import {
 	Stories,
 	Testimonies,
 	SupportARQ,
-} from "@/components/landing";
+} from "@/components/home";
 import About from "@/components/shared/aboutARQ";
 import WhyItMatters from "@/components/shared/matters";
 

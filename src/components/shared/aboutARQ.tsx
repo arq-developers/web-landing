@@ -54,7 +54,7 @@ function AboutARQ() {
 						</p>
 
 						<Link
-							href="/aboutARQ"
+							href="/about"
 							className="inline-block bg-yellow-400 text-black font-semibold py-3 px-6 rounded-md shadow hover:bg-yellow-300 transition duration-300"
 						>
 							Read more
