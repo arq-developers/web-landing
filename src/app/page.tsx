@@ -1,6 +1,14 @@
 import React from "react";
 
-import { Hero, Goals, WhatIsARQ, HowARQWorks } from "@/components/landing";
+import {
+	Hero,
+	Goals,
+	WhatIsARQ,
+	HowARQWorks,
+	Stories,
+	Testimonies,
+	SupportARQ,
+} from "@/components/home";
 import About from "@/components/shared/aboutARQ";
 import WhyItMatters from "@/components/shared/matters";
 import Foo from "@/components/shared/foo";
@@ -9,11 +17,16 @@ export default function Page() {
 	return (
 		<div>
 			<Hero />
+			<div id="about">
+				<About />
+			</div>
 			<Goals />
+			<WhyItMatters />
 			<WhatIsARQ />
 			<HowARQWorks />
-			<About />
-			<WhyItMatters />
+      <Stories />
+			<Testimonies />
+			<SupportARQ />
 			<Foo />
 		</div>
 	);

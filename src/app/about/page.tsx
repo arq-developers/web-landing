@@ -1,9 +1,13 @@
-import Link from "next/link";
+// import Link from "next/link";
+
+import { Banner, AboutARQ } from "@/components/home";
 
 function Page() {
 	return (
 		<div>
-			<Link href="/">Home</Link>
+			<Banner />
+			<AboutARQ />
+			{/* <Link href="/">Home</Link> */}
 		</div>
 	);
 }
