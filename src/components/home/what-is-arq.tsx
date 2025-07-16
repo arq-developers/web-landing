@@ -22,8 +22,8 @@ export default function WhatIsARQ() {
 
 	return (
 		<div className="w-full">
-			<div className="bg-gradient-to-b from-blue via-blue/80 to-transparent w-full h-72 rounded-sm"></div>
-			<div className="gap-8 w-full h-full pt-24 px-8 md:px-16 flex flex-col justify-center items-center text-center transition-all duration-300 text-black">
+			<div className="bg-gradient-to-b from-blue via-blue/80 to-transparent w-full h-72"></div>
+			<div className="gap-8 w-full h-full pt-24 pb-12 px-8 md:px-16 flex flex-col justify-center items-center text-center transition-all duration-300 text-black">
 				<div className="font-montserrat flex flex-col items-center justify-center gap-1">
 					<span className="text-blue/85 font-bold text-xl sm:text-2xl md:text-3xl leading-tight">
 						What is ARQ?

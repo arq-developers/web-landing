@@ -5,21 +5,24 @@ import { Quotes } from "@phosphor-icons/react";
 export default function Testimonies() {
 	const testimonials = [
 		{
-			image: "/images/arq/arq-blue-logo.png",
+			image:
+				"/images/hero/467357773_2396348514046355_3106270350575818250_n.jpg",
 			name: "JESSICA, MOM",
 			location: "Bacolod",
 			message:
 				"Before ARQ, we didn't know how to talk about faith at home. Now, we can't stop.",
 		},
 		{
-			image: "/images/arq/arq-blue-logo.png",
+			image:
+				"/images/hero/467530055_1934671763690962_5162145518103783592_n.jpg",
 			name: "ARQ FACILITATOR, KARL",
 			location: "Las Piñas",
 			message:
 				"I used to think I wasn't 'qualified' to disciple anyone. ARQ gave me the tools and courage.",
 		},
 		{
-			image: "/images/arq/arq-blue-logo.png",
+			image:
+				"/images/hero/474663832_1269361440788485_8472831950214551439_n.jpg",
 			name: "PASTOR MARK",
 			location: "Bacolod",
 			message:
@@ -53,12 +56,12 @@ export default function Testimonies() {
 								/>
 							</div>
 							<div className="flex md:flex-row flex-col items-center justify-center md:justify-start gap-4 w-full">
-								{/* <img
-                                    src={testimonial.image}
-                                    alt={testimonial.name}
-                                    className="w-16 h-16 rounded-full object-cover"
-                                /> */}
-								<div className="w-16 h-16 rounded-full bg-gray/50 group-hover:bg-white-soft transition-all duration-300"></div>
+								<img
+									src={testimonial.image}
+									alt={testimonial.name}
+									className="w-16 h-16 rounded-full object-cover"
+								/>
+
 								<div className="font-montserrat flex flex-col items-center md:items-start justify-center">
 									<h3 className="font-bold text-blue text-base sm:text-lg mb-1 leading-none group-hover:text-yellow-light transition-all duration-300">
 										{testimonial.name}
