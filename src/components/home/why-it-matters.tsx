@@ -25,7 +25,7 @@ export default function WhyItMatters() {
 	return (
 		<section
 			id="why-it-matters"
-			className="w-full pt-24 px-8 md:px-16 bg-[#1a2e66] scroll-mt-28 flex flex-col justify-center items-center gap-12"
+			className="w-full pt-24 pb-36 px-8 md:px-16 bg-blue backdrop-blur scroll-mt-28 flex flex-col justify-center items-center gap-12"
 		>
 			<div className="flex flex-col items-center justify-center gap-4">
 				<span className="font-montserrat text-yellow-light font-bold text-xl sm:text-2xl md:text-3xl leading-tight">

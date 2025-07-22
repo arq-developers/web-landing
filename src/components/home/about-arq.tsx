@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+import Link from "next/link";
+import { CaretLeft } from "@phosphor-icons/react";
 
 export default function AboutARQ() {
 	return (
@@ -85,6 +89,14 @@ export default function AboutARQ() {
 				<span className="font-bold hover:text-blue transtion-all duration-300">
 					It’s a way of life that brings Jesus into our everyday life.
 				</span>
+			</div>
+			<div className="flex items-center justify-start max-w-6xl w-full">
+				<Link
+					href="/"
+					className="bg-yellow-dark py-2 pl-2 pr-4 rounded-sm text-white-soft font-medium text-sm md:text-base border-2 border-transparent hover:bg-transparent hover:border-2 hover:border-blue-dark hover:text-blue-dark transition-all duration-300 disabled mt-2 cursor-pointer flex gap-1 items-center"
+				>
+					<CaretLeft size={20} /> Go Back
+				</Link>
 			</div>
 		</div>
 	);

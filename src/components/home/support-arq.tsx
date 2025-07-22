@@ -14,7 +14,7 @@ export default function SupportARQ() {
 	];
 
 	return (
-		<div className="w-full h-full py-24 px-8 lg:px-16 flex flex-col justify-center items-center text-center gap-8 md:gap-12 transition-all duration-300 bg-gray/10">
+		<div className="w-full h-full py-24 px-8 lg:px-16 flex flex-col justify-center items-center text-center gap-8 md:gap-12 transition-all duration-300 bg-gray/10 backdrop-blur">
 			<div className="font-montserrat flex flex-col items-center justify-center gap-1">
 				<span className="text-blue-dark font-bold text-2xl md:text-4xl leading-tight">
 					Support Our Mission
