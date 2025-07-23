@@ -2,9 +2,7 @@ import type { Metadata } from "next";
 import { Open_Sans, Montserrat } from "next/font/google";
 import "./globals.css";
 
-import Navbar from "@/components/shared/navbar";
-// import Footer from "@/components/shared/footer";
-import Foo from "@/components/shared/foo";
+import { Navbar, StayInTheLoop } from "@/components/shared";
 
 const openSans = Open_Sans({
 	variable: "--font-open-sans",
@@ -210,12 +208,15 @@ export default function RootLayout({
 				/>
 			</head>
 			<body
-				className={`${openSans.variable} ${montserrat.variable} antialiased`}
+				className={`relative ${openSans.variable} ${montserrat.variable} antialiased`}
 			>
-				<Navbar />
+				<div className="w-full fixed top-0 z-50 h-12">
+					<Navbar />
+				</div>
+
 				<main className="bg-white-soft">{children}</main>
-				{/* <Footer /> */}
-				<Foo />
+
+				<StayInTheLoop />
 			</body>
 		</html>
 	);

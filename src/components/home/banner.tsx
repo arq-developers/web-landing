@@ -27,7 +27,7 @@ export default function Banner() {
 	}, [current, heroImages.length]);
 
 	return (
-		<div className="flex flex-col items-center justify-center h-72 md:h-80 relative text-black">
+		<div className="flex flex-col items-center justify-center h-80 md:h-80 relative text-black">
 			<div className="w-full h-full absolute top-0 left-0 z-0">
 				<Image
 					key={current}
@@ -55,7 +55,7 @@ export default function Banner() {
 			<div className="w-full h-full bg-blue-dark/90 absolute top-0 left-0 z-1 pointer-events-none"></div>
 			<div className="w-full h-full absolute z-2">
 				<div className="flex flex-col items-center justify-center h-full px-8 lg:px-16 xl:px-30 gap-6 xl:gap-10 transition-all duration-300">
-					<p className="text-white-soft text-center md:text-5xl text-3xl font-montserrat font-bold">
+					<p className="text-white-soft text-center md:text-5xl text-3xl font-montserrat font-bold mt-12">
 						TRANSFORMING <span className="text-yellow-dark">DISCIPLESHIP</span>,
 						<br />
 						TRANSFORMING <span className="text-yellow-dark">LIVES</span>.

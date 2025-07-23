@@ -51,7 +51,7 @@ function AboutARQ() {
 
 						<Link
 							href="/about"
-							className="bg-yellow-dark py-2 px-7 rounded-sm text-white-soft font-medium text-sm md:text-base border-2 border-transparent hover:bg-transparent hover:border-2 hover:border-blue-dark hover:text-blue-dark transition-all duration-300 disabled mt-2 cursor-pointer"
+							className="bg-yellow-dark py-2 px-7 rounded-sm text-white-soft font-medium text-sm md:text-base border-2 border-transparent hover:bg-transparent hover:border-2 hover:border-blue-dark hover:text-blue-dark transition-all duration-300 mt-2 cursor-pointer"
 						>
 							Read more
 						</Link>
