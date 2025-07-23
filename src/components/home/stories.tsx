@@ -1,6 +1,6 @@
 export default function Stories() {
 	return (
-		<div className="w-full h-full pt-36 md:pt-48 px-8 md:px-16 flex flex-col justify-center items-center text-center gap-8 md:gap-12 transition-all duration-300 ">
+		<div className="w-full h-full pt-24 px-8 md:px-16 flex flex-col justify-center items-center text-center gap-8 md:gap-12 transition-all duration-300 ">
 			<div className="font-montserrat flex flex-col items-center justify-center gap-1">
 				<span className="text-blue-dark font-bold text-2xl md:text-4xl leading-tight">
 					Stories from the Field

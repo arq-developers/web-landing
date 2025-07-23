@@ -26,7 +26,7 @@ export default function Hero() {
 	}, [current, heroImages.length]);
 
 	const scrollToAbout = () => {
-		const aboutSection = document.getElementById("about");
+		const aboutSection = document.getElementById("arq-story");
 		if (aboutSection) {
 			aboutSection.scrollIntoView({ behavior: "smooth" });
 		}
