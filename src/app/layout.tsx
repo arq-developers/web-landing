@@ -62,16 +62,10 @@ export const metadata: Metadata = {
 			"Join ARQ's revolutionary 3-month discipleship journey that transforms lives through actionable faith, relational growth, and deep conversations. Discover life-on-life discipleship outside church walls in the Philippines.",
 		images: [
 			{
-				url: "/images/hero/467357773_2396348514046355_3106270350575818250_n.jpg",
+				url: "/opengraph-image.jpg",
 				width: 1200,
 				height: 630,
 				alt: "ARQ Discipleship Journey - Transforming Lives Through Faith",
-			},
-			{
-				url: "/images/arq/arq-blue-logo-with-name.png",
-				width: 800,
-				height: 600,
-				alt: "ARQ Logo - Actionable Faith, Relational Growth, Questions that go deep",
 			},
 		],
 		siteName: "ARQ Philippines",
@@ -81,9 +75,7 @@ export const metadata: Metadata = {
 		title: "ARQ - Transforming Discipleship, Transforming Lives",
 		description:
 			"Join ARQ's revolutionary 3-month discipleship journey that transforms lives through actionable faith, relational growth, and deep conversations.",
-		images: [
-			"/images/hero/467357773_2396348514046355_3106270350575818250_n.jpg",
-		],
+		images: ["/opengraph-image.jpg"],
 		creator: "@ARQPhilippines", // Replace with your actual Twitter handle
 		site: "@ARQPhilippines", // Replace with your actual Twitter handle
 	},
@@ -132,7 +124,7 @@ export default function RootLayout({
 							description:
 								"ARQ is a Spirit-led, relational, and actionable 3-month discipleship journey that transforms lives through real-world conversations and community building.",
 							url: "https://arq-philippines.com", // Replace with your actual domain
-							logo: "https://arq-philippines.com/images/arq/arq-blue-logo-with-name.png", // Replace with your actual domain
+							logo: "/images/arq/arq-blue-logo-with-name.png", // Replace with your actual domain
 							sameAs: [
 								"https://facebook.com/ARQPhilippines", // Replace with actual social media links
 								"https://twitter.com/ARQPhilippines",
