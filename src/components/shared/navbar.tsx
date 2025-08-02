@@ -60,6 +60,11 @@ const navbarItems: NavbarItems[] = [
 		href: "#support-arq",
 	},
 	{
+		label: "Contact Us",
+		type: "link",
+		href: "#contact-us",
+	},
+	{
 		label: "Start Your Journey",
 		type: "button",
 		href: "/",
@@ -120,6 +125,7 @@ export default function Navbar() {
 			"what-is-arq",
 			"how-arq-works",
 			"stories",
+			"contact-us",
 			"support-arq",
 		];
 		const sectionElements = sectionIds
@@ -193,7 +199,7 @@ export default function Navbar() {
 				/>
 			</Link>
 
-			<div className="hidden md:flex items-center gap-4 lg:gap-8">
+			<div className="hidden lg:flex items-center gap-4 lg:gap-8">
 				{navbarItems.map((item) => {
 					if (item.type === "dropdown" && item.withDropdown) {
 						const activeDropdown = item.dropdownItems?.some(
@@ -304,7 +310,7 @@ export default function Navbar() {
 				})}
 			</div>
 			<div
-				className={`md:hidden cursor-pointer hover:text-[#f7b100] transition-all duration-300 ${
+				className={`lg:hidden cursor-pointer hover:text-[#f7b100] transition-all duration-300 ${
 					isWhiteNav ? "text-[#f5f5f5]" : "text-[#1a2e66]"
 				}`}
 				onClick={() => setIsSidebarOpen(true)}

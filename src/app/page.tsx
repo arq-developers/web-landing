@@ -10,6 +10,7 @@ import {
 	Stories,
 	Testimonies,
 	SupportARQ,
+	ContactUs,
 } from "@/components/home";
 
 export default function Page() {
@@ -41,6 +42,9 @@ export default function Page() {
 
 			<div id="support-arq">
 				<SupportARQ />
+			</div>
+			<div id="contact-us">
+				<ContactUs />
 			</div>
 		</div>
 	);
