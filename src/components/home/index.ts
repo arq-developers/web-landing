@@ -9,6 +9,8 @@ import Testimonies from "@/components/home/testimonies";
 import SupportARQ from "@/components/home/support-arq";
 import Banner from "@/components/home/banner";
 import AboutARQ from "@/components/home/about-arq";
+import ContactUs from "@/components/home/contact-us";
+import ContactForm from "@/components/home/contact-form";
 
 export {
 	Hero,
@@ -22,4 +24,6 @@ export {
 	SupportARQ,
 	Banner,
 	AboutARQ,
+	ContactUs,
+	ContactForm,
 };

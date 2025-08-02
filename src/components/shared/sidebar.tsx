@@ -17,13 +17,14 @@ const links = [
 	{ href: "#how-arq-works", label: "How ARQ Works?" },
 	{ href: "#stories", label: "Stories" },
 	{ href: "#support-arq", label: "Support Us" },
+	{ href: "#contact-us", label: "Contact Us" },
 	{ href: "/", label: "Start Your Journey" },
 ];
 
 const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
 	return (
 		<div
-			className={`fixed top-0 left-0 w-full h-svh bg-white-soft transition-transform duration-300 transform md:hidden ${
+			className={`fixed top-0 left-0 w-full h-svh bg-white-soft transition-transform duration-300 transform lg:hidden ${
 				isOpen ? "translate-x-0" : "-translate-x-full"
 			}`}
 		>
