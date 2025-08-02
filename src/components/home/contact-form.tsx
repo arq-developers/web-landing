@@ -94,7 +94,7 @@ const ContactForm = () => {
 					Contact Number
 				</label>
 				<div className="flex items-center w-full">
-					<span className="bg-blue-dark/5 border-transparent p-2 rounded-sm text-gray-500">
+					<span className="bg-blue-dark/5 border-transparent sm:p-2 p-2.5 rounded-sm text-blue font-medium text-sm sm:text-base">
 						+63
 					</span>
 					<input
